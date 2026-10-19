@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff8fb;
+    color: #59444f;
+}
+.ibm-emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-life-savers-regular {
+  font-family: "Life Savers", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-life-savers-bold {
+  font-family: "Life Savers", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-life-savers-extrabold {
+  font-family: "Life Savers", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 50px;
+}
+header {
+    text-align: center;
+    padding: 40px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #59444f;
+    padding: 10px;
+}
+li a {
+    color: #fff8fb;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li a:visited {
+    color: #fff8fb;
+}
+li a:hover {
+    color: #d77fa4;
+}
+#origin {
+    background-image: url(sonny-images/dots.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.origin {
+    width: 50%;
+    position: relative;
+    top: 300px;
+    left: 50px;
+    z-index: 10;
+    background-color:#f6f3e0;
+}
+.sonnyorgin {
+    background-image: url(sonny-images/sonnyorgin.jpg);
+    width: 600px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+    top: -0px;
+    right: -655px;
+    z-index: 9;
+
+}
+
+/* Video Section */
+#video {
+    background-color: #fff8fb;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 180px;
+    box-sizing: border-box;
+}
+
+/* Three TikTok videos in a horizontal row */
+
+.video-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 20px;
+}
+
+.video-gallery .tiktok-embed {
+    width: 280px;
+    min-width: 0;
+    margin: 0;
+}
+
+#about {
+    background-image: url(sonny-images/dots.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.About-Me {
+    width: 50%;
+    position: relative;
+    top: 300px;
+    left: 50px;
+    z-index: 10;
+    background-color:#f6f3e0;
+}
+h2 {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.caterpillar {
+    background-image: url(sonny-images/caterpillar.png);
+    width: 600px;
+    height: 600px;
+    background-size: contain;
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    z-index: 9;
+}
+.pinkaura {
+    background-image: url(sonny-images/pinkaura.png);
+    width: 800px;
+    height: 800px;
+    background-size: contain;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    z-index: 8;
+}
+.greycat {
+    background-image: url(sonny-images/greycat.png);
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    z-index: 7;
+
+}
+#collection {
+    background-color: #fff8fb;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 180px;
+    box-sizing: border-box;
+}
+#collection h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding: 30px 20px;
+}
+.item {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #e9d3df;
+}
+
+.item img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+h2 {
+    color: #a85d7c;
+    margin-top: 35px;
+}
+.item p {
+    line-height: 1.6;
+}
+.item h3 {
+    color: #b66b8b;
+}
+#why-collect {
+    background-image: url(sonny-images/dots.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.why-collect {
+    width: 50%;
+    position: relative;
+    top: 300px;
+    left: 50px;
+    z-index: 10;
+    background-color:#f6f3e0;
+}
+.heart {
+    background-image: url(sonny-images/heart.png);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#why-collect .heart {
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    top: -150px;
+    left: 750px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: pulseheart 1s infinite alternate;
+    z-index: 3;
+}
+@keyframes pulseheart {
+    from {
+transform: scale(1); }
+    to {
+transform: scale(1.2); }
+}
+
+#gif {
+    background-color: #fff8fb;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#gif img {
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #f6dce8;
+    color: #8e4968;
+    padding: 20px;
+    margin-top: 40px;
+}
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: white;
+}
